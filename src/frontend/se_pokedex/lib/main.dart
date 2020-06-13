@@ -50,13 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
             if(snapshot.data == null) {
               return Container(
                 child: Center(
-                  child: RaisedButton(
-                    onPressed: () => {
-                      print("Pressed"),
-                      setState(() {}),
-                    },
-                      child: Text('Loading')
-                  ),
+                  child: Text('Loading'),
                 ),
               );
             }
