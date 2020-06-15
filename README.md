@@ -1,23 +1,23 @@
 ![](flutter_logo.png)
 # Flutter ePortfolio
 
-Welcome to my introduction into the world of flutter, this repository will guide you through your first contact with Dart, Widgets and app building, and hopefully help with understanding the basics.
+Welcome to my introduction into the world of Flutter, this repository will guide you through your first contact with Dart, Widgets and app building, and hopefully, help with understanding the basics.
 
-You can use the [handout](handout.pdf) and the [powerpoint](Flutter.pptx) to learn more about Flutter.
+You can use the [handout](handout.pdf) and the [PowerPoint](Flutter.pptx) to learn more about Flutter.
 
 ## Backend
-For the live demo I will be using the endpoint you can find in src/backend. It is a simple python server which gathers information from other endpoints and exposes the necessary data to us. You should be able to find the backend [here](https://strong-thorn-planet.glitch.me/). If for any reason the link is down you would have to deploy the backend again for the demo to work.
+For the live demo, I will be using the endpoint you can find in src/backend. It is a simple python server that gathers information from other endpoints and exposes the necessary data to us. You should be able to find the backend [here](https://strong-thorn-planet.glitch.me/). If the backend does not work, you would have to deploy it again for the demo to work.
 
 ## Set-up
-If you would like to build the App for yourself step by step follow this simple guide.
+If you would like to build the App for yourself, step by step, follow this simple guide.
 
 0. Initial set-up
-    - Before you can start make sure to follow the [Get started](https://flutter.dev/docs/get-started/install) section of the official Flutter docs. Make sure to have a working instance of Android Studio as well as Flutter running on your computer.
+    - Before you can start, make sure to follow the [Get started](https://flutter.dev/docs/get-started/install) section of the official Flutter docs. Make sure to have a working instance of Android Studio as well as Flutter running on your computer.
     - Check the connectivity to the given backend [https://strong-thorn-planet.glitch.me/](https://strong-thorn-planet.glitch.me/)
 1. Create a new project
-    - Open Android Studio and press "Start a new Flutter project"
+    - Open Android Studio and press "Start a new Flutter project."
     - Select "Flutter Application"
-    - Give the App a name and description and select the SDK path eg. C:\flutter\ or press "Install SDK..." if necessary
+    - Give the App a name and description and select the SDK path, eg. C:\flutter\ or press "Install SDK..." if necessary
     - Select a package name and press finish
 2. Clean up the project
     - Remove all the unnecessary comments and functions in the generated main.dart file
@@ -189,7 +189,7 @@ If you would like to build the App for yourself step by step follow this simple 
             onTap: () => Navigator.of(context).push(new MaterialPageRoute(builder: (context) => DetailPage(snapshot.data[index]))),
         );
     ```
-10. Our project is done
+10. Done
 
 ## Links
 Take a look at [official Flutter docs](https://flutter.dev/docs) for more information.
